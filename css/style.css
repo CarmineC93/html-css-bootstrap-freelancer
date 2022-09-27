@@ -127,9 +127,12 @@ section span::after, span::before{
     max-width: 200px;
 }
 
-
-
 /* FOOTER */
 footer{
-    height: 200px;
+    height: calc(300px - 80px);
+}
+
+.sub-footer{
+    height: 80px;
+    line-height: 80px;
 }
