@@ -127,11 +127,6 @@ section span::after, span::before{
     max-width: 200px;
 }
 
-.jumbo{
-    max-width: 540px;
-    margin: 0 auto;
-}
-
 
 
 /* FOOTER */
