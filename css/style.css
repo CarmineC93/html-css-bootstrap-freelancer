@@ -129,6 +129,10 @@ section span::after, span::before{
 
 /* FOOTER */
 footer{
+    height:300px;
+}
+
+.top-footer{
     height: calc(300px - 80px);
 }
 
