@@ -19,24 +19,32 @@
 <body>
     <div class="wrapper">
         <!-- header -->
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-5">
-                        logo
+        <header class="bg_header text_white">
+            <div class="container container-md container-lg">
+                <div class="row align-items-center ">
+                    <div class="logo col-6">
+                        <a class="clean" href="#">START BOOTSTRAP</a>
                     </div>
 
-                    <div class="col-7">
-                        <i class="fa-solid fa-bars"></i>                    
+                    <div class="col-6 d-flex justify-content-end d-md-none">
+                        <span class="hamburger d-flex align-items-center">
+                            <i class="fa-solid fa-bars"></i>   
+                        </span>              
                     </div>
 
-                    <div class="col-7">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                    <nav class="col-6 d-none d-md-flex justify-content-end d-md-flex">
+                        <ul class="d-flex ">
+                            <li class="ms-2">
+                                <a class="clean" href="#portfolio">PORTFOLIO</a>
+                            </li>
+                            <li class="ms-2">
+                                <a class="clean" href="#about">ABOUT</a>
+                            </li>
+                            <li class="ms-2">
+                                <a class="clean" href="#contact">CONTACT</a>
+                            </li>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </header>
@@ -45,7 +53,7 @@
         <!-- main -->
         <main>
             <!-- jumbotron section -->
-            <section class="container-fluid">
+            <section class="container-fluid bg_main">
                 <div class="container">
                     <div class="row">
                         <div class="col-10">
@@ -61,21 +69,40 @@
             </section>
 
             <!-- portfolio section -->
-            <section class="container">
+            <section class="container" id="portfolio">
                 <h2></h2>
                 <span></span>
-                <div class="row row-col-12">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                <div class="row row-cols-1">
+
+                    <div class="col"> 
+                        <div class="card bg_portfolio1"></div>
+                    </div>
+
+                    <div class="col">                        
+                        <div class="card bg_portfolio2"></div>
+                    </div>
+
+                    <div class="col">                        
+                        <div class="card bg_portfolio3"></div>
+                    </div>
+
+                    <div class="col">                        
+                        <div class="card bg_portfolio4"></div>
+                    </div>
+
+                    <div class="col">                        
+                        <div class="card bg_portfolio5"></div>
+                    </div>
+
+                    <div class="col">                        
+                        <div class="card bg_portfolio6"></div>
+                    </div>
+
                 </div>
             </section>
 
             <!-- about section -->
-            <section class="container-fluid">
+            <section class="container-fluid bg_main" id="about">
                 <div class="container">
                     <h2></h2>
                     <span></span>
@@ -94,7 +121,7 @@
             </section>
 
             <!-- contact section -->
-            <section class="container">
+            <section class="container" id="contact">
                 <h2></h2>
                 <span></span>
                 <div class="row">
@@ -107,17 +134,17 @@
         <!-- /main -->
 
         <!-- footer -->
-        <footer>
+        <footer class="bg_top_footer">
             <div class="container top_footer">
-                <div class="row row-col-12">
+                <div class="row row-cols-1">
                     <div class="col"></div>
                     <div class="col"></div>
                     <div class="col"></div>
                 </div>
             </div>
 
-            <div class="container-fluid">
-                <div class="row row-col-12">
+            <div class="container-fluid bg_sub_footer">
+                <div class="row row-cols-1">
                     <div class="col"></div>
                 </div>
             </div>

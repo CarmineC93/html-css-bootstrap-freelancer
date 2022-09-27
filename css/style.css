@@ -19,3 +19,102 @@
     --text_green:#1ABC9C;
 
 }
+
+/* UTILITIES */
+
+.bg_header{
+    background-color: var(--bg_header);
+}
+
+.bg_main{
+    background-color: var(--bg_main);
+}
+
+.bg_portfolio1{
+    background-color: var(--bg_portfolio1);
+}
+
+.bg_portfolio2{
+    background-color: var(--bg_portfolio2);
+}
+
+.bg_portfolio3{
+    background-color: var(--bg_portfolio3);
+}
+
+.bg_portfolio4{
+    background-color: var(--bg_portfolio4);
+}
+
+.bg_portfolio5{
+    background-color: var(--bg_portfolio5);
+}
+
+.bg_portfolio6{
+    background-color: var(--bg_portfolio6);
+}
+
+.bg_top_footer{
+    background-color: var(--bg_top_footer);
+}
+
+.bg_sub_footer{
+    background-color: var(--bg_sub_footer);
+}
+
+.text_main{
+    color: var(--text_main);
+}
+
+.text_white{
+    color: var(--text_white);
+}
+
+.text_green{
+    color: var(--text_green);
+}
+
+.clean{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* COMMON */
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* HEADER */
+header{
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo, .hamburger{
+    font-size: 1.3rem;
+}
+
+.hamburger{
+    border: 1px solid var(--text_white);
+    border-radius: 10px;
+}
+
+.hamburger i{
+    padding: 0.5rem 0.8rem;
+}
+
+nav ul{
+    font-size: 0.8rem;
+}
+
+
+/* FOOTER */
+footer{
+    height: 200px;
+}
