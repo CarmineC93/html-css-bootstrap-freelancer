@@ -113,6 +113,26 @@ nav ul{
     font-size: 0.8rem;
 }
 
+/* MAIN */
+
+/* Jumbotron */
+
+section span::after, span::before{
+    height: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.jumbo img{
+    max-width: 200px;
+}
+
+.jumbo{
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+
 
 /* FOOTER */
 footer{
