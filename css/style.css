@@ -90,6 +90,37 @@ ul{
     list-style-type: none;
 }
 
+
+/* HEADER NAVBAR BOOTSTRAP */
+.navbar-brand, .nav-link{
+    color: var(--ms-text_white);
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: var(--ms-text_green);
+}
+
+.navbar-toggler{
+    border-color:white;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--ms-text_green);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+
+
+
+
 /* HEADER */
 header{
     height: 100px;
