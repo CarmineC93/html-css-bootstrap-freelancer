@@ -118,7 +118,9 @@ nav ul{
 /* Jumbotron */
 
 
+
 .ms-star::before, .ms-star::after {
+    content:normal;
     width: 100px;
     border-radius: 20px;
     background-color: white;
