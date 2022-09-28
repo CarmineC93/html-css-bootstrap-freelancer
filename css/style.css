@@ -3,75 +3,75 @@
 :root{
 
     /* palette */
-    --bg_header:#2C3E50;
-    --bg_main:#1ABC9C;
-    --bg_portfolio1:#BA4B63;
-    --bg_portfolio2:#1EA4B6;
-    --bg_portfolio3:#140F0F;
-    --bg_portfolio4:#1C83C1;
-    --bg_portfolio4:#1C83C1;
-    --bg_portfolio5:#0E38B5;
-    --bg_portfolio6:#CCB2A3;
-    --bg_top_footer:#3A546D;
-    --bg_sub_footer:#2C3E50;
-    --text_main:#2C3E50;
-    --text_white:#FFFFFF;
-    --text_green:#1ABC9C;
+    --ms-bg_header:#2C3E50;
+    --ms-bg_main:#1ABC9C;
+    --ms-bg_portfolio1:#BA4B63;
+    --ms-bg_portfolio2:#1EA4B6;
+    --ms-bg_portfolio3:#140F0F;
+    --ms-bg_portfolio4:#1C83C1;
+    --ms-bg_portfolio4:#1C83C1;
+    --ms-bg_portfolio5:#0E38B5;
+    --ms-bg_portfolio6:#CCB2A3;
+    --ms-bg_top_footer:#3A546D;
+    --ms-bg_sub_footer:#2C3E50;
+    --ms-text_main:#2C3E50;
+    --ms-text_white:#FFFFFF;
+    --ms-text_green:#1ABC9C;
 
 }
 
 /* UTILITIES */
 
-.bg_header{
-    background-color: var(--bg_header);
+.ms-bg_header{
+    background-color: var(--ms-bg_header);
 }
 
-.bg_main{
-    background-color: var(--bg_main);
+.ms-bg_main{
+    background-color: var(--ms-bg_main);
 }
 
-.bg_portfolio1{
-    background-color: var(--bg_portfolio1);
+.ms-bg_portfolio1{
+    background-color: var(--ms-bg_portfolio1);
 }
 
-.bg_portfolio2{
-    background-color: var(--bg_portfolio2);
+.ms-bg_portfolio2{
+    background-color: var(--ms-bg_portfolio2);
 }
 
-.bg_portfolio3{
-    background-color: var(--bg_portfolio3);
+.ms-bg_portfolio3{
+    background-color: var(--ms-bg_portfolio3);
 }
 
-.bg_portfolio4{
-    background-color: var(--bg_portfolio4);
+.ms-bg_portfolio4{
+    background-color: var(--ms-bg_portfolio4);
 }
 
-.bg_portfolio5{
-    background-color: var(--bg_portfolio5);
+.ms-bg_portfolio5{
+    background-color: var(--ms-bg_portfolio5);
 }
 
-.bg_portfolio6{
-    background-color: var(--bg_portfolio6);
+.ms-bg_portfolio6{
+    background-color: var(--ms-bg_portfolio6);
 }
 
-.bg_top_footer{
-    background-color: var(--bg_top_footer);
+.ms-bg_top_footer{
+    background-color: var(--ms-bg_top_footer);
 }
 
-.bg_sub_footer{
-    background-color: var(--bg_sub_footer);
+.ms-bg_sub_footer{
+    background-color: var(--ms-bg_sub_footer);
 }
 
-.text_main{
-    color: var(--text_main);
+.ms-text_main{
+    color: var(--ms-text_main);
 }
 
-.text_white{
-    color: var(--text_white);
+.ms-text_white{
+    color: var(--ms-text_white);
 }
 
-.text_green{
-    color: var(--text_green);
+.ms-text_green{
+    color: var(--ms-text_green);
 }
 
 .clean{
@@ -101,7 +101,7 @@ header{
 }
 
 .hamburger{
-    border: 1px solid var(--text_white);
+    border: 1px solid var(--ms-text_white);
     border-radius: 10px;
 }
 
@@ -117,25 +117,58 @@ nav ul{
 
 /* Jumbotron */
 
-section span::after, span::before{
-    height: 10px;
+
+.ms-star::before, .ms-star::after {
     width: 100px;
     border-radius: 20px;
+    background-color: white;
+    height: 5px;
 }
+
 
 .jumbo img{
     max-width: 200px;
 }
 
+/* contact section */
+
+.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+textarea.form-control {
+    min-height: calc(6.5em + 0.75rem + 2px);
+}
+
+.form-floating>label{
+    font-weight: 600;
+}
+
+.btn-primary{
+    background-color: var(--ms-bg_main);
+    border: none;
+}
+
+.circle{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.circle i{
+    vertical-align: sub;
+}
+
 /* FOOTER */
-footer{
-    height:300px;
-}
-
-.top-footer{
-    height: calc(300px - 80px);
-}
-
 .sub-footer{
     height: 80px;
     line-height: 80px;
