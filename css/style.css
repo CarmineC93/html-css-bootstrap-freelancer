@@ -122,10 +122,10 @@ ul{
 
 
 /* HEADER */
-header{
+/* header{
     height: 100px;
     line-height: 100px;
-}
+} */
 
 .logo, .hamburger{
     font-size: 1.3rem;
